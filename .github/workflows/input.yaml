@@ -11,6 +11,9 @@ on:
           - dev
           - test
           - prod
+      artificats_version:
+        description: give the description tag 
+        required: true
 jobs:
   inputs:
     runs-on: ubuntu-latest

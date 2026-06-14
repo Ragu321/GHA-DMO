@@ -14,6 +14,10 @@ on:
       artificats_version:
         description: give the description tag 
         required: true
+        type: choice
+        options:
+          - 0.2
+          - 0.5 
 jobs:
   inputs:
     runs-on: ubuntu-latest

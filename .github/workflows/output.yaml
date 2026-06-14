@@ -10,9 +10,8 @@ jobs:
         id: steps1
         run: |
          echo "version= 1.1" >> $GITHUB_OUTPUT
-
   deploy:   
      - name: deploy the app
-      run: the versin of app is ${{ needs.build.outputs.version }}
+      run: "the versin of app is ${{ needs.build.outputs.version }}"
          
         

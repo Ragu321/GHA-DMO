@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Deploy the app
-        run: echo "Deploying the appliaction to ${{ inputs.environment }}"
+        run: echo "Deploying the ${{ inputs.artificats_version }} appliaction to ${{ inputs.environment }}"
         
         
         

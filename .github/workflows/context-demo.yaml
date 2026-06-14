@@ -4,7 +4,7 @@ jobs:
   context-demo:
     runs-on: ubuntu-latest
     steps:
-    - name: use context varaibles 
-     run: |
-     echo "This workflow ins triggred by ${{ github.actor }}"
-     echo "the repo name is ${{ github.repository }}
+      - name: use context varaibles 
+        run: |
+          echo "This workflow ins triggred by ${{ github.actor }}"
+          echo "the repo name is ${{ github.repository }}

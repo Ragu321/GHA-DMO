@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: run a ragu321 or raghu
-        if: github.actor == 'Ragu322' || 'raghavendraredd'
+        if: github.actor == 'Ragu322' || github.actor == 'raghavendraredd'
         run: echo " it is generetd either by ragu 321 or raghu"

@@ -6,4 +6,4 @@ jobs:
     steps:
       - name: run a ragu321 or raghu
         if: github.actor == 'Ragu321' || 'raghavendrareddy bn'
-        run: echo " it is generetd either by ragu 321 or raghu
+        run: echo " it is generetd either by ragu 321 or raghu"
